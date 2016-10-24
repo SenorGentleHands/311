@@ -13,7 +13,7 @@ using std::list;
 class Hash {
 
 public:
-   Hash();                          // constructor
+   Hash();                          // the constructor
    void remove(string);             // remove key from hash table
    void print();                    // print the entire hash table
    void processFile(string);        // open file and add keys to hash table
